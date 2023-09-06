@@ -28,7 +28,7 @@ export default function Home() {
       method: 'GET',
       headers: {
         'accept': 'application/json',
-        'authorization': 'Bearer c538f36a-4696-4205-b47e-40a2d663a99f', // Your API key
+        'authorization': 'Bearer YOUR_API_KEY', // Your API key
       },
     };
 
