@@ -62,7 +62,7 @@ export default function Home() {
   };
 
   const handleGenerateAIImage = async () => {
-    const modelId = '26a1a203-3a46-42cb-8cfa-f4de075907d8'; // Your model ID
+    const modelId = '26a1a203-3a46-42cb-8cfa-f4de075907d8'; // basic model ID
     const apiUrl = `https://api.tryleap.ai/api/v1/images/models/${modelId}/inferences`;
     const prompt = `Generate a tasty looking food image using the ingredients and recipe information: 
       Recipe Name: ${recipeData.recipeName}
@@ -74,7 +74,7 @@ export default function Home() {
       headers: {
         'accept': 'application/json',
         'content-type': 'application/json',
-        'authorization': 'Bearer c538f36a-4696-4205-b47e-40a2d663a99f', // Your API key
+        'authorization': 'Bearer YOUR_API_KEY', // Your API key
       },
       body: JSON.stringify({ prompt }),
     };
