@@ -2,7 +2,9 @@
 Recipe card generator with AI images
 
 ## Demo
-https://github.com/rachelgr99/ai-recipe-cards/assets/90875541/8d9f8eec-625c-4c66-9e35-9ba340afa748
+
+https://github.com/rachelgr99/ai-recipe-cards/assets/90875541/0d9b1ab9-dcb8-436b-8feb-663285df1173
+
 
 ## Getting Started
 To run this project, follow these steps: <br>
